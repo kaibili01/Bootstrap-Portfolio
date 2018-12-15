@@ -1,0 +1,38 @@
+body    {
+    
+    
+    border-color: #eae7e6;   
+
+}
+
+
+main header  {
+    display: block;
+    text-align: center;
+    background-color: #4aaaa5;
+    border-color: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+    section    {
+    background-color: #ffffff;
+    border-color: #dddddd;    
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    text-align :center;
+}
+
+
+footer  {  
+    background-color: lightslategray;
+
+}
+
+.whitetext {
+    color:whitesmoke;
+}
+
+.portext {
+    color: dimgrey ;
+}
