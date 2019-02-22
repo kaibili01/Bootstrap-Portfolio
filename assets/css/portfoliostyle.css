@@ -36,3 +36,13 @@ footer  {
 .portext {
     color: dimgrey ;
 }
+
+
+
+/* @media only screen and (min-width : 320px) {  
+	
+	.card-img {
+		margin-left: 8%
+	}
+	
+}   */
