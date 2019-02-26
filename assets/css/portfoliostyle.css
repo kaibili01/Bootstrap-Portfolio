@@ -45,8 +45,11 @@ footer  {
 	.container {
         margin-left: 0%
     }
+    .portcontainer {
+        margin-left: 10%
+    }
     
-	
+    
  }
 
  /* Custom, iPhone 6 & 7 *  */
