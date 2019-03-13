@@ -49,6 +49,9 @@ footer  {
     .portcontainer {
         margin-left: 1%
     }
+    .cardcontainer{
+        margin-left:5%
+    }
     
     
  }
@@ -62,7 +65,11 @@ footer  {
     .portcontainer {
         margin-left: 25%
     }
-    
+    .cardcontainer {
+        margin-left:18%
+    }
+
+
 }  
 
 /* Custom, iPhone 6 & 7 *  */
@@ -74,7 +81,9 @@ footer  {
     .portcontainer {
         margin-left: 33%
     }
-    
+    .cardcontainer {
+        margin-left:23%
+    }
 }  
 
 /* Custom, iPhone 6 & 7 *  */
@@ -85,6 +94,9 @@ footer  {
     }
     .portcontainer {
         margin-left: 36%
+    }
+    .cardcontainer {
+        margin-left:28%
     }
     
 }  
@@ -98,6 +110,21 @@ footer  {
     .portcontainer {
         margin-left: 38%
     }
-    
+    .cardcontainer {
+        margin-left:33%
+    }
 }  
 
+/* Custom, iPhone 6 & 7 *  */
+@media only screen and (min-width : 1680px) { 
+
+	.container {
+		margin-left: 40%
+    }
+    .portcontainer {
+        margin-left: 38%
+    }
+    .cardcontainer {
+        margin-left:38%
+    }
+}  
