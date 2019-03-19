@@ -41,7 +41,7 @@ footer  {
 
 
 /* Custom, iPhone 6 & 7 *  */
- @media only screen and (min-width : 400px) { 
+ @media only screen and (min-width : 375px) { 
 
 	.container {
         margin-left: 0%
@@ -52,7 +52,10 @@ footer  {
     .cardcontainer{
         margin-left:5%
     }
-    
+    .rescontainer{
+        margin-left:0%;
+        margin-bottom:9%;
+    }
     
  }
 
@@ -67,6 +70,10 @@ footer  {
     }
     .cardcontainer {
         margin-left:18%
+    }
+    .rescontainer{
+        margin-left:15%;
+        margin-bottom:5%;
     }
 
 
@@ -84,6 +91,10 @@ footer  {
     .cardcontainer {
         margin-left:23%
     }
+    .rescontainer{
+        margin-left:25%;
+        margin-bottom:5%;
+    }
 }  
 
 /* Custom, iPhone 6 & 7 *  */
@@ -98,7 +109,10 @@ footer  {
     .cardcontainer {
         margin-left:28%
     }
-    
+    .rescontainer{
+        margin-left:32%;
+        margin-bottom:5%;
+    }
 }  
 
 /* Custom, iPhone 6 & 7 *  */
@@ -112,6 +126,10 @@ footer  {
     }
     .cardcontainer {
         margin-left:33%
+    }
+    .rescontainer{
+        margin-left:35%;
+        margin-bottom:5%;
     }
 }  
 
@@ -127,4 +145,9 @@ footer  {
     .cardcontainer {
         margin-left:38%
     }
+    .rescontainer{
+        margin-left:42%;
+        margin-bottom:5%;
+    }
+        
 }  
