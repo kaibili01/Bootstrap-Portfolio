@@ -104,7 +104,7 @@ footer  {
         margin-left:15%;
     }
     .aboutlabel{
-        margin-left:30%;  
+        margin-left:100%;  
     }
 
 
@@ -137,7 +137,7 @@ footer  {
         margin-left:20%;
     }
     .aboutlabel{
-        margin-left:22%;  
+        margin-left:100%;  
     }
 }  
 
@@ -168,7 +168,7 @@ footer  {
         margin-left:30%;
     }
     .aboutlabel{
-        margin-left:18%;  
+        margin-left:100%;  
     }
 }  
 
@@ -176,10 +176,10 @@ footer  {
 @media only screen and (min-width : 1200px) { 
 
 	.aboutcontainer {
-        margin-left: 3%;
+        margin-left: 15%;
         margin-bottom:10%;
         margin-top:5%; 
-        width: 1000px;
+        width: 800px;
     }
     .portcontainer {
         margin-left: 38%
@@ -199,7 +199,7 @@ footer  {
         margin-left:30%;
     }
     .aboutlabel{
-        margin-left:15%;  
+        margin-left:100%;  
     }
 }  
 
@@ -207,10 +207,10 @@ footer  {
 @media only screen and (min-width : 1680px) { 
 
 	.aboutcontainer {
-        margin-left: 5%;
+        margin-left: 25%;
         margin-bottom:10%;
-        margin-top:5%; 
-        width: 1555px;
+        margin-top:10%; 
+        width: 800px;
     }
     .portcontainer {
         margin-left: 38%
@@ -231,6 +231,9 @@ footer  {
     }
     .bio{
         margin-left:50%;
+    }
+    .aboutlabel{
+        margin-left:100%;  
     }
         
 }  
