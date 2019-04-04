@@ -1,6 +1,4 @@
 body    {
-    
-    
     border-color: #eae7e6;   
 
 }
@@ -38,11 +36,36 @@ footer  {
     font-size: 10px
 }
 
-/* .LI-profile-badge {
-    margin-left: 7%;
-    margin-top:5%;
+.carbody{
+    background-color: black;
+}
+.carcontainer{
+    width: 50%;
+    height:50%;
+    margin-left:25%;
+    margin-top: 10%;
+    /* background-color: #4aaaa5; */
+    
+}
+/* .carousel-control-prev{
+    background-color: black;
+}
+
+.carousel-control-next{
+    background-color: black;
 } */
 
+.carousel-control-prev-icon{
+    background-color: black;
+   
+    
+}
+
+.carousel-control-next-icon{
+    background-color: black;
+    
+    
+}
 
 /* Custom, iPhone 6 & 7 *  */
  @media only screen and (min-width : 375px) { 
