@@ -90,8 +90,8 @@ footer  {
         margin-bottom:10%;
     }
     .portcontainer {
-        margin-left: 1%;
-        width: 375px;
+        margin-left: 1%
+        
     }
     .cardcontainer{
         margin-left:3%;
@@ -164,8 +164,8 @@ footer  {
         width: 500px;
     }
     .portcontainer {
-        margin-left: 0%;
-        width: 375px;
+        margin-left: 0%
+        
     }
     .cardcontainer {
         margin-left:18%;
@@ -291,7 +291,7 @@ footer  {
         width: 800px;
     }
     .portcontainer {
-        margin-left: 30%
+        margin-left: 40%
     }
     .cardcontainer {
         margin-left:38%;
