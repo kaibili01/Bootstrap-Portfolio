@@ -1,14 +1,19 @@
 body    {
-    border-color: #eae7e6;   
+    border-color: #eae7e6;
 
 }
 
 .img-thumbnail{        
     /* width: 300px;  */
     /* or you could use percentage values for responsive layout */
-    width : 100%;
+    width: 100%;
     height: 65%;
     overflow: auto;
+}
+
+.logocontainer{
+    width: 10%;
+    height: 10%;
 }
 
 /* .img-thumbnail{
