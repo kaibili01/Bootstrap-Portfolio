@@ -43,7 +43,7 @@ footer  {
 }
 
 .whitetext {
-    color:whitesmoke;
+    color:dimgrey;
 }
 
 .portext {
@@ -54,6 +54,13 @@ footer  {
 .carbody{
     background-color: black;
 }
+
+/* .card-img-overlay{
+    width: 100%;
+} */
+
+
+
 .carcontainer{
     width: 50%;
     height:50%;
