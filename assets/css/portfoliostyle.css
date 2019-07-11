@@ -125,6 +125,16 @@ footer  {
          
     }
 
+    .logocontainer{
+        margin-left: 7%; 
+        /* margin-bottom: 80%; */
+    }
+
+    .navbar-toggler{
+        margin-left: 80%;
+        margin-bottom: -2%;
+    }
+
     
 
     
@@ -160,6 +170,17 @@ footer  {
         margin-left:10%; 
          
     }
+
+    .logocontainer{
+        margin-left: 7%; 
+        /* margin-bottom: 80%; */
+    }
+
+    .navbar-toggler{
+        margin-left: 80%;
+        margin-bottom: -2%;
+    }
+
 
     
 
@@ -197,6 +218,17 @@ footer  {
         margin-left:100%;  
     }
 
+    .logocontainer{
+        margin-left: 37%; 
+        /* margin-bottom: 80%; */
+    }
+
+    .navbar-toggler{
+        margin-left: 80%;
+        margin-bottom: -2%;
+    }
+
+
 
 }  
 
@@ -229,6 +261,16 @@ footer  {
     .aboutlabel{
         margin-left:100%;  
     }
+
+    .logocontainer{
+        margin-left: 45%; 
+        /* margin-bottom: 80%; */
+    }
+
+    .navbar-toggler{
+        margin-left: 80%;
+        margin-bottom: -2%;
+    }
 }  
 
 /* Custom, iPhone 6 & 7 *  */
@@ -260,6 +302,15 @@ footer  {
     .aboutlabel{
         margin-left:100%;  
     }
+    .logocontainer{
+        margin-left: 34%; 
+        /* margin-bottom: 80%; */
+    }
+
+    .navbar-toggler{
+        margin-left: 80%;
+        margin-bottom: -2%;
+    }
 }  
 
 /* Custom, iPhone 6 & 7 *  */
@@ -290,6 +341,15 @@ footer  {
     }
     .aboutlabel{
         margin-left:100%;  
+    }
+    .logocontainer{
+        margin-left: 90%; 
+        /* margin-bottom: 80%; */
+    }
+
+    .navbar-toggler{
+        margin-left: 80%;
+        margin-bottom: -2%;
     }
 }  
 
@@ -324,6 +384,16 @@ footer  {
     }
     .aboutlabel{
         margin-left:100%;  
+    }
+
+    /* .logocontainer{ */
+        /* margin-left:300%;  */
+        /* margin-bottom: 80%; */
+    }
+
+    /* .navbar-toggler{ */
+        /* margin-left:50%; */
+        /* margin-bottom: -2%; */
     }
 
     /* .text-justified whitetext{
