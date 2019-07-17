@@ -1,0 +1,50 @@
+<mjml>
+
+  <mj-head>
+
+    <mj-attributes>
+      <mj-text align="center" color="#555" />
+    </mj-attributes>
+
+  </mj-head>
+
+  <mj-body background-color="#fff">
+
+    <mj-include path="./header.mjml" />
+
+    <mj-section background-color="#fff">
+
+      <mj-column>
+        <mj-text align="center">
+          <h5>__Contact__</h5>
+        </mj-text>
+      </mj-column>
+      
+      <mj-section >
+      <mj-text align="left">__your name__</mj-text>
+      </mj-section>
+      
+      <mj-section >
+      <mj-text align="left">__your email__</mj-text>
+      </mj-section>
+
+      <mj-section >
+      <mj-text align="left">__Subject__</mj-text>
+      </mj-section>
+      
+      <mj-section >
+      <mj-text align="left">__Body__</mj-text>
+      </mj-section>
+
+      <mj-section >
+      <mj-text align="left">__Sent From__ <a href="http://__SITE__">__SITE__</a></mj-text>
+      </mj-section>
+      
+
+    </mj-section>
+
+    <mj-include path="./footer.mjml" />
+
+  </mj-body>
+
+</mjml>
