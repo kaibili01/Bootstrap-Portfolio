@@ -1,4 +1,4 @@
-const router = require("express");
+const router = require("express").Router();
 const sendMailFromGmail = require("../middlewares/gmail");
 
 router.route("/send").post(sendMailFromGmail);
