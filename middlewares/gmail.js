@@ -9,7 +9,8 @@ const elementMap = {
     "body": "__Body__"
 }
 
-const sendMailFromGmail = (res, req, next) => {
+const sendMailFromGmail = (req, res, next) => {
+    console.log('req.body', req.body);
     const transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
@@ -18,11 +19,11 @@ const sendMailFromGmail = (res, req, next) => {
            }
        });
 
-let htmlTemplate = fs.readFileSync(path.resolve(__dirname, '/templates/emailtest.html'), 'UTF-8');
+let htmlTemplate = fs.readFileSync(path.resolve(__dirname, '../templates/emailtest.html'), 'UTF-8');
 
        for (const key in elementMap) {
            htmlTemplate = htmlTemplate.replace(new RegExp(`__${elementMap 
-            [Key]}__`, 'g'), req.body[key]);
+            [key]}__`, 'g'), req.body[key]);
      
 }
 htmlTemplate = htmlTemplate.replace(new RegExp(`__SITE__`,'g'), "agb.dev");
