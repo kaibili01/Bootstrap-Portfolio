@@ -1,3 +1,4 @@
+require('dotenv').config();
 const nodemailer = require("nodemailer");
 const fs = require("fs");
 const path = require("path");
@@ -8,14 +9,14 @@ const elementMap = {
     "fromEmail": "__your email__",
     "body": "__Body__"
 }
-
+console.log('usergmail', process.env.usergmail);
 const sendMailFromGmail = (req, res, next) => {
     console.log('req.body', req.body);
     const transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-               user: 'adananimaldesign@gmail.com',
-               pass: 'OnePiece01'
+               user: process.env.usergmail,
+               pass: process.env.password
            }
        });
 
@@ -28,7 +29,7 @@ let htmlTemplate = fs.readFileSync(path.resolve(__dirname, '../templates/emailte
 }
 htmlTemplate = htmlTemplate.replace(new RegExp(`__SITE__`,'g'), "agb.dev");
 
-const sendTo = ['adananimaldesign@gmail.com']
+const sendTo = [process.env.usergmail];
     if (req.body.copy){
         sendTo.push(req.body.fromEmail)
 
@@ -36,7 +37,7 @@ const sendTo = ['adananimaldesign@gmail.com']
 
     const mailOptions = {
         from: `${req.body.fromName} <${req.body.fromEmail}>`, // sender address
-        to: 'adananimaldesign@gmail.com', // list of receivers
+        sendTo: [process.env.usergmail], // list of receivers
         subject: req.body.subject, // Subject line
         text: req.body.subject,// plain text body
         html: htmlTemplate// HTML body
