@@ -37,7 +37,7 @@ const sendTo = [process.env.usergmail];
 
     const mailOptions = {
         from: `${req.body.fromName} <${req.body.fromEmail}>`, // sender address
-        sendTo: [process.env.usergmail], // list of receivers
+        to: sendTo, // list of receivers
         subject: req.body.subject, // Subject line
         text: req.body.subject,// plain text body
         html: htmlTemplate// HTML body
