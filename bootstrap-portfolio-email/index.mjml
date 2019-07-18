@@ -16,28 +16,28 @@
 
       <mj-column>
         <mj-text align="center">
-          <h5>__Contact__</h5>
+          <h5>Contact</h5>
         </mj-text>
       </mj-column>
       
       <mj-section >
-      <mj-text align="left">__your name__</mj-text>
+      <mj-text align="left">__YOURNAME__</mj-text>
       </mj-section>
       
       <mj-section >
-      <mj-text align="left">__your email__</mj-text>
+      <mj-text align="left">__YOUREMAIL__</mj-text>
       </mj-section>
 
       <mj-section >
-      <mj-text align="left">__Subject__</mj-text>
+      <mj-text align="left">__SUBJECT__</mj-text>
       </mj-section>
       
       <mj-section >
-      <mj-text align="left">__Body__</mj-text>
+      <mj-text align="left">__BODY__</mj-text>
       </mj-section>
 
       <mj-section >
-      <mj-text align="left">__Sent From__ <a href="http://__SITE__">__SITE__</a></mj-text>
+      <mj-text align="left">Sent from...<a href="http://__SITE__">__SITE__</a></mj-text>
       </mj-section>
       
 

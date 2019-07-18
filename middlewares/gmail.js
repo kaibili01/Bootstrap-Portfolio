@@ -4,10 +4,11 @@ const fs = require("fs");
 const path = require("path");
 
 const elementMap = {
-    "subject": "__Subject__",
-    "fromName": "__your name__",
-    "fromEmail": "__your email__",
-    "body": "__Body__"
+    
+    "subject": "SUBJECT",
+    "fromName": "YOURNAME",
+    "fromEmail": "YOUREMAIL",
+    "body": "BODY"
 }
 console.log('usergmail', process.env.usergmail);
 const sendMailFromGmail = (req, res, next) => {
