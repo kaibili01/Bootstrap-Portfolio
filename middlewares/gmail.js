@@ -21,7 +21,7 @@ const sendMailFromGmail = (req, res, next) => {
            }
        });
 
-let htmlTemplate = fs.readFileSync(path.resolve(__dirname, '../contact1.html'), 'UTF-8');
+let htmlTemplate = fs.readFileSync(path.resolve(__dirname, '../templates/contact.html'), 'UTF-8');
 
        for (const key in elementMap) {
            htmlTemplate = htmlTemplate.replace(new RegExp(`__${elementMap 
