@@ -1,50 +1,41 @@
 <mjml>
-
   <mj-head>
-
     <mj-attributes>
-      <mj-text align="center" color="#555" />
-    </mj-attributes>
-
+      <mj-text align="center" color="#555" /> </mj-attributes>
   </mj-head>
-
-  <mj-body background-color="#fff">
-
+  <mj-body background-color="#fffff">
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-navbar base-url="https://mjml.io" hamburger="hamburger" ico-color="#696969">
+          <mj-navbar-link href="/gettings-started-onboard" color="#696969">About</mj-navbar-link>
+          <mj-navbar-link href="/try-it-live" color="#696969">Portfolio</mj-navbar-link>
+          <mj-navbar-link href="/templates" color="#696969">Contact</mj-navbar-link>
+          <mj-navbar-link href="/components" color="#696969">Resume</mj-navbar-link>
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
     <mj-include path="./header.mjml" />
-
     <mj-section background-color="#fff">
-
       <mj-column>
         <mj-text align="center">
           <h5>Contact</h5>
         </mj-text>
       </mj-column>
-      
-      <mj-section >
-      <mj-text align="left">__YOURNAME__</mj-text>
+      <mj-section>
+        <mj-text align="left">__YOURNAME__</mj-text>
       </mj-section>
-      
-      <mj-section >
-      <mj-text align="left">__YOUREMAIL__</mj-text>
+      <mj-section>
+        <mj-text align="left">__YOUREMAIL__</mj-text>
       </mj-section>
-
-      <mj-section >
-      <mj-text align="left">__SUBJECT__</mj-text>
+      <mj-section>
+        <mj-text align="left">__SUBJECT__</mj-text>
       </mj-section>
-      
-      <mj-section >
-      <mj-text align="left">__BODY__</mj-text>
+      <mj-section>
+        <mj-text align="left">__BODY__</mj-text>
       </mj-section>
-
-      <mj-section >
-      <mj-text align="left">Sent from...<a href="http://__SITE__">__SITE__</a></mj-text>
+      <mj-section>
+        <mj-text align="left">Sent from...<a href="http://__SITE__">__SITE__</a></mj-text>
       </mj-section>
-      
-
     </mj-section>
-
-    <mj-include path="./footer.mjml" />
-
-  </mj-body>
-
+    <mj-include path="./footer.mjml" /> </mj-body>
 </mjml>
