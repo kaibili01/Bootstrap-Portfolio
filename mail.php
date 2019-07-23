@@ -9,7 +9,7 @@ if(isset( $_POST['subject']))
 $subject = $_POST['subject'];
 
 $content="From: $name \n Email: $email \n Message: $message";
-$recipient = "adananimaldesign@gmail.com";
+$recipient = "lumbre49@hotmail.com.com";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $content, $mailheader) or die("Error!");
 echo "Email sent!";
