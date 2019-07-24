@@ -1,15 +1,15 @@
 <?php
-if(isset( $_POST['name']))
+if(isset( $_POST['contact-form']))
 $name = $_POST['name'];
-if(isset( $_POST['email']))
+if(isset( $_POST['contact-form']))
 $email = $_POST['email'];
-if(isset( $_POST['message']))
+if(isset( $_POST['contact-form']))
 $message = $_POST['message'];
-if(isset( $_POST['subject']))
+if(isset( $_POST['contact-form']))
 $subject = $_POST['subject'];
 
 $content="From: $name \n Email: $email \n Message: $message";
-$recipient = "lumbre49@hotmail.com.com";
+$recipient = "adananimaldesign@gmail.com";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $content, $mailheader) or die("Error!");
 echo "Email sent!";
